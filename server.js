@@ -16,7 +16,7 @@ app.use(express.json());
 // Set the view engine as handlebars and the main html file
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
-
+// Set the app to listen on the specified port
 app.listen(PORT, function () {
     console.log(`Server listening on PORT: ${PORT}`)
 })
