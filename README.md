@@ -1,2 +1,3 @@
 # The-Toy-Chest
-Toy application
+
+An application for searching for various toys
