@@ -1,5 +1,12 @@
 body {
-  background-color: rgb(41, 98, 151);
+  background-repeat: no-repeat;
+  background: rgb(12, 51, 85);
+  background: linear-gradient(
+    274deg,
+    rgba(12, 51, 85, 1) 0%,
+    rgba(121, 68, 9, 1) 100%,
+    rgba(54, 117, 171, 1) 100%
+  );
 }
 
 .nav-link {
@@ -9,22 +16,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.contact {
-  padding: 40px 40px 20px 0;
-  position: relative;
-  float: right;
-  color: white;
-  font-size: larger;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.brand::first-letter {
-  font-weight: bolder;
-  color: rgb(19, 0, 128);
-}
-
 .hr {
   width: 95%;
   margin: 0 auto;
   color: white;
+}
+
+.form-signin {
+  margin-top: 50px;
+}
+
+.signIn {
+  color: white;
+}
+
+.chest-img {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.chest {
+  width: 400px;
+  height: 400px;
+  align-content: center;
+  border-radius: 10%;
+  opacity: 80%;
 }
